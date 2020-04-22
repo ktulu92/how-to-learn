@@ -1,4 +1,6 @@
 .page {
+
+
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
   /* поэтому выше установлена минимальная ширина страницы */
@@ -7,8 +9,10 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-
+  
 }
+
+
 
 .header {
   background-color: #f2f2f2;
@@ -35,9 +39,9 @@
   line-height: 96px;
   margin-left: 64px;
   width: 730px;
-  font-size: 50px;
+  font-size: 102px;
   font-style: bold;
-  z-index: 1;
+  z-index: 2;
 }
 
 .header__subtitle{
@@ -48,13 +52,15 @@
  font-size: 18px;
  line-height: 25px;
  width: 388px;
+  z-index: 2;
 }
 
 .header__main-illustration{
+ position: absolute;
  width: 765px;
  height: 608px;
- margin-left: auto;
- margin-top: auto;
+ right: 0;
+ bottom: 0;
  z-index: 1;
 } 
 
@@ -69,12 +75,11 @@
 }
 
 .description{
- 
- margin-top: 100px;
- display: flex;
- flex-direction: row;
- flex-wrap: wrap;
- justify-content: space-around;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .two-columns{
@@ -235,7 +240,7 @@
   margin-top: 20px;
 }
 
-.table_theme_dark{
+.table_theme_dark {
   margin: 0 auto 90px auto;
   
 }
@@ -248,8 +253,7 @@
   z-index: 1;
 }
 
-.kaufman__triangle{
- 
+.kaufman__triangle {
   position: absolute;
   width: 877px;
   height: 877px;
@@ -267,7 +271,7 @@
   color:white; 
 }
 
-.footer__columns{
+.footer__columns {
   margin: 60px auto 40px auto;
   display: flex;
   justify-content: space-between;
@@ -336,3 +340,5 @@
   margin-bottom: auto; 
 }
 
+p,div,h1,h2,img{
+  border:1px solid red;
