@@ -54,13 +54,9 @@
   z-index: 2;
 }
 
-.header_link{
+.header__link{
   color:#2f80ed;
   text-decoration: none;
-}
-
-.header_link_arrow{
-  font-size: 30px;
 }
 
 .header__main-illustration{
@@ -217,9 +213,6 @@
   text-decoration: none;
  }
 
-.feynman_link_arrow{
-  font-size: 60px;
-}
   
 .feynman__photo{
   position: absolute;
