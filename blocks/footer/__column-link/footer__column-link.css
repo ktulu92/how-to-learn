@@ -1,6 +1,4 @@
 .footer__column-link{
-  display: flex;
-  flex-direction: row;
   text-decoration: none;
   color:#f2f2f2;
 }
