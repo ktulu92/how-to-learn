@@ -2,6 +2,8 @@
 
 @import url(./vendor/normalize.css);
 
+@import url(./blocks/table/table.css);
+
 @import url(./blocks/section-subtitle/section-subtitle.css);
 
 @import url(./blocks/section-title/section-title.css);
@@ -16,8 +18,6 @@
 
 @import url(./blocks/feynman/feynman.css);
 
-@import url(./blocks/kaufman/kaufman.css);
-
 @import url(./blocks/khan/khan.css);
 
 @import url(./blocks/logo/logo.css);
@@ -28,7 +28,7 @@
 
 @import url(./blocks/rotation/rotation.css);
 
-@import url(./blocks/table/table.css);
+@import url(./blocks/kaufman/kaufman.css);
 
 @import url(./blocks/techniques/techniques.css);
 
